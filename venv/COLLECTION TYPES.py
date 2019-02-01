@@ -64,5 +64,9 @@ d = [[10,20,30],[40,50,60],[60,70,80]]
 
 for e in d:
     for f in e:
-        print(e,end = "")
-        print()
+         print(f,end = " ")
+         print()
+
+
+for a,b,c in d:
+    print(a,b,c)
